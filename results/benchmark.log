@@ -1,0 +1,89 @@
+Prepared data: 37385 users, 22554 candidate items
+Fitted ItemKNN in 0.11s
+Fitted SVD in 1.99s
+Validated blend weight 0.25
+Validated blend weight 0.5
+Validated blend weight 0.75
+Evaluated 1000/3000 users
+Evaluated 2000/3000 users
+Evaluated 3000/3000 users
+            precision_at_10  recall_at_10  ndcg_at_10  mrr_at_10  catalog_coverage  fit_seconds
+model                                                                                          
+SVD                0.001600      0.009644    0.005864   0.005815          0.021061     1.991513
+Blend              0.001500      0.009017    0.004534   0.004207          0.419748     0.113280
+ItemKNN            0.001500      0.007789    0.004306   0.004433          0.581272     0.113280
+Popularity         0.001067      0.007110    0.003267   0.002770          0.000576     0.000000
+Random             0.000000      0.000000    0.000000   0.000000          0.734016     0.000000
+{
+  "run_utc": "2026-10-22T15:36:49.431287+00:00",
+  "seed": 42,
+  "raw_reviews": 278677,
+  "unique_user_item_pairs": 278677,
+  "raw_unique_users": 39387,
+  "raw_unique_items": 23033,
+  "date_range_utc": [
+    "2003-03-29 00:00:00+00:00",
+    "2014-07-23 00:00:00+00:00"
+  ],
+  "cutoffs_utc": [
+    "2014-03-20 00:00:00+00:00",
+    "2014-05-18 00:00:00+00:00"
+  ],
+  "split_rows": {
+    "train": 222413,
+    "validation": 28185,
+    "test": 28079
+  },
+  "training_users": 37385,
+  "candidate_items": 22554,
+  "positive_training_events": 177836,
+  "validation": {
+    "eligible_users": 7450,
+    "evaluated_users": 1000,
+    "positive_events": 21959,
+    "warm_user_and_item_positive_events": 16923
+  },
+  "test": {
+    "eligible_users": 6700,
+    "evaluated_users": 3000,
+    "positive_events": 21802,
+    "warm_user_and_item_positive_events": 15229
+  },
+  "validation_blend_search": [
+    {
+      "knn_weight": 0.25,
+      "ndcg_at_10": 0.0045004392018582985
+    },
+    {
+      "knn_weight": 0.5,
+      "ndcg_at_10": 0.008451829045294542
+    },
+    {
+      "knn_weight": 0.75,
+      "ndcg_at_10": 0.008121427190712021
+    }
+  ],
+  "selected_knn_weight": 0.5,
+  "blend_minus_popularity_ndcg_mean": 0.001267410127727511,
+  "blend_minus_popularity_ndcg_paired_bootstrap_95_ci": [
+    -0.00026698988815216263,
+    0.0028428817605416
+  ],
+  "protocol": "Global chronological approximately 80/10/10; unique user-item pairs; training rating >=4 as implicit positives; >=3 training reviews per evaluation user; warm items only; full training-positive catalog; remove all earlier reviewed items; macro-average metrics; model frozen at training cutoff, including during test.",
+  "hyperparameters": {
+    "item_knn_neighbors": 100,
+    "svd_components": 64,
+    "svd_iterations": 7,
+    "k": 10
+  },
+  "verification": "Asserted strict temporal boundaries, no repeated user-item pairs across splits, disjoint relevant/seen sets, 10 unique unseen finite-score recommendations per user/model, and metric bounds.",
+  "elapsed_seconds": 32.324671961017884,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.1",
+    "platform": "Linux-7.2.9-arch1-1-x86_64-with-glibc2.44"
+  }
+}

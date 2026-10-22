@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+data/raw/
+data/processed/
+results/per_user_metrics.csv
+*.part

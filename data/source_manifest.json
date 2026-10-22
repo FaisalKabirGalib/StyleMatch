@@ -1,0 +1,10 @@
+{
+  "dataset": "Amazon product data 2014 Clothing Shoes and Jewelry 5-core",
+  "source_page": "https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html",
+  "download_url": "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Clothing_Shoes_and_Jewelry_5.json.gz",
+  "verified_at_utc": "2026-10-22T15:30:30.051790+00:00",
+  "bytes": 47285200,
+  "sha256": "b87037787e9d5374ce72995a29ac192cde1573513c31abfd4ca7781d802b1e22",
+  "reviews": 278677,
+  "license_note": "Publicly downloadable research dataset. The linked source page does not specify a standalone permissive data license; do not describe it as CC0 or unrestricted open-source data."
+}

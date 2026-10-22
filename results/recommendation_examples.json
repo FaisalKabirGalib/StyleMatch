@@ -1,0 +1,287 @@
+[
+  {
+    "user_index": 18,
+    "model": "Random",
+    "recommended_product_ids": [
+      "B00BZEUUBY",
+      "B004NRNR4W",
+      "B0000869QI",
+      "B00AM2RB62",
+      "B00448FI8I",
+      "B00A6GPN0K",
+      "B008KZGY02",
+      "B000297L38",
+      "B003N7MY7O",
+      "B000UXKZ20"
+    ],
+    "held_out_relevant_product_ids": [
+      "B008HH27BI"
+    ]
+  },
+  {
+    "user_index": 18,
+    "model": "Popularity",
+    "recommended_product_ids": [
+      "B005LERHD8",
+      "B008WYDP1C",
+      "B0058XIMMM",
+      "B005GYGD7O",
+      "B0001ZNZJM",
+      "B007WNWEFC",
+      "B0008EOEPK",
+      "B000O32MLI",
+      "B007RD9DS8",
+      "B0000C321X"
+    ],
+    "held_out_relevant_product_ids": [
+      "B008HH27BI"
+    ]
+  },
+  {
+    "user_index": 18,
+    "model": "ItemKNN",
+    "recommended_product_ids": [
+      "B009RGDT7E",
+      "B0075RI0C6",
+      "B003MP9IK8",
+      "B004FP9AX4",
+      "B002CO2K6E",
+      "B0094Q6OME",
+      "B00BANCUGI",
+      "B0002TOYTW",
+      "B000FVE2HQ",
+      "B000O7L7VU"
+    ],
+    "held_out_relevant_product_ids": [
+      "B008HH27BI"
+    ]
+  },
+  {
+    "user_index": 18,
+    "model": "SVD",
+    "recommended_product_ids": [
+      "B00CIBCJ62",
+      "B003DNR4XC",
+      "B008NCYALM",
+      "B0067GUM2W",
+      "B005UVM368",
+      "B00BNB36ZG",
+      "B003XDVUEQ",
+      "B00CKGB85I",
+      "B006SCSOOS",
+      "B00B2PMF1Y"
+    ],
+    "held_out_relevant_product_ids": [
+      "B008HH27BI"
+    ]
+  },
+  {
+    "user_index": 18,
+    "model": "Blend",
+    "recommended_product_ids": [
+      "B009RGDT7E",
+      "B005LERHD8",
+      "B0075RI0C6",
+      "B003MP9IK8",
+      "B004FP9AX4",
+      "B002CO2K6E",
+      "B0094Q6OME",
+      "B00BANCUGI",
+      "B0098SEYP2",
+      "B0002TOYTW"
+    ],
+    "held_out_relevant_product_ids": [
+      "B008HH27BI"
+    ]
+  },
+  {
+    "user_index": 26,
+    "model": "Random",
+    "recommended_product_ids": [
+      "B000EGR6IY",
+      "B0052SAOWE",
+      "B009H6NPBE",
+      "B00EHL4DCE",
+      "B007YK68GE",
+      "B0036OS2BQ",
+      "B00AKGT0AK",
+      "B004XYABYE",
+      "B003VOYD2S",
+      "B00A6KQVCK"
+    ],
+    "held_out_relevant_product_ids": [
+      "B0088GE68A"
+    ]
+  },
+  {
+    "user_index": 26,
+    "model": "Popularity",
+    "recommended_product_ids": [
+      "B005LERHD8",
+      "B008WYDP1C",
+      "B0058XIMMM",
+      "B005GYGD7O",
+      "B0001ZNZJM",
+      "B007WNWEFC",
+      "B0008EOEPK",
+      "B000O32MLI",
+      "B007RD9DS8",
+      "B0000C321X"
+    ],
+    "held_out_relevant_product_ids": [
+      "B0088GE68A"
+    ]
+  },
+  {
+    "user_index": 26,
+    "model": "ItemKNN",
+    "recommended_product_ids": [
+      "B00GT3J18O",
+      "B001940JWA",
+      "B00CEZG5M6",
+      "B00FI9PPS0",
+      "B00BIFG9RE",
+      "B00H6BVSAW",
+      "B000B6CSIU",
+      "B002RWL0CG",
+      "B008LSH3I0",
+      "B003YVXAJ0"
+    ],
+    "held_out_relevant_product_ids": [
+      "B0088GE68A"
+    ]
+  },
+  {
+    "user_index": 26,
+    "model": "SVD",
+    "recommended_product_ids": [
+      "B00DMWQOYY",
+      "B005GYGD7O",
+      "B006PGGJOE",
+      "B0009B3IN6",
+      "B000PH25X8",
+      "B0007CKMA4",
+      "B0009F0Z38",
+      "B008NCYALM",
+      "B007RD9DS8",
+      "B001HEF6W0"
+    ],
+    "held_out_relevant_product_ids": [
+      "B0088GE68A"
+    ]
+  },
+  {
+    "user_index": 26,
+    "model": "Blend",
+    "recommended_product_ids": [
+      "B005LERHD8",
+      "B00GT3J18O",
+      "B001940JWA",
+      "B000B6CSIU",
+      "B00CEZG5M6",
+      "B00FI9PPS0",
+      "B00BIFG9RE",
+      "B00H6BVSAW",
+      "B002RWL0CG",
+      "B008LSH3I0"
+    ],
+    "held_out_relevant_product_ids": [
+      "B0088GE68A"
+    ]
+  },
+  {
+    "user_index": 35,
+    "model": "Random",
+    "recommended_product_ids": [
+      "B00B6E76II",
+      "B00350UA6Q",
+      "B004WFW0SE",
+      "B00CXXID2O",
+      "B0093N0870",
+      "B00AM3WTXG",
+      "B0083SVEMY",
+      "B0000DZUZ1",
+      "B001I12WS8",
+      "B003BSMK5G"
+    ],
+    "held_out_relevant_product_ids": [
+      "B00960XSE0"
+    ]
+  },
+  {
+    "user_index": 35,
+    "model": "Popularity",
+    "recommended_product_ids": [
+      "B005LERHD8",
+      "B008WYDP1C",
+      "B0058XIMMM",
+      "B005GYGD7O",
+      "B0001ZNZJM",
+      "B007WNWEFC",
+      "B0008EOEPK",
+      "B000O32MLI",
+      "B007RD9DS8",
+      "B0000C321X"
+    ],
+    "held_out_relevant_product_ids": [
+      "B00960XSE0"
+    ]
+  },
+  {
+    "user_index": 35,
+    "model": "ItemKNN",
+    "recommended_product_ids": [
+      "B008YST31C",
+      "B0044MHROW",
+      "B001B5EVTE",
+      "B00B1K7G96",
+      "B0098FJLZ8",
+      "B00CDBPPC2",
+      "B00DMWQKIY",
+      "B002G9U56M",
+      "B0067LQX6G",
+      "B0085O2WUY"
+    ],
+    "held_out_relevant_product_ids": [
+      "B00960XSE0"
+    ]
+  },
+  {
+    "user_index": 35,
+    "model": "SVD",
+    "recommended_product_ids": [
+      "B004YM2FV2",
+      "B00012O12A",
+      "B007RD9DS8",
+      "B0074T7TY0",
+      "B006SCSOOS",
+      "B000B8P7Y0",
+      "B0009F0Z38",
+      "B003U77NN2",
+      "B008NCYALM",
+      "B0007QCOTM"
+    ],
+    "held_out_relevant_product_ids": [
+      "B00960XSE0"
+    ]
+  },
+  {
+    "user_index": 35,
+    "model": "Blend",
+    "recommended_product_ids": [
+      "B005LERHD8",
+      "B008YST31C",
+      "B0044MHROW",
+      "B001B5EVTE",
+      "B00B1K7G96",
+      "B0098FJLZ8",
+      "B00CDBPPC2",
+      "B00DMWQKIY",
+      "B008WYDP1C",
+      "B0058XIMMM"
+    ],
+    "held_out_relevant_product_ids": [
+      "B00960XSE0"
+    ]
+  }
+]
