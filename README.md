@@ -2,7 +2,9 @@
 
 Comparative Fashion Product Recommendation Using Collaborative Filtering and Matrix Factorization.
 
-This research starter ranks fashion products for existing users. It includes the downloaded Amazon 2014 Clothing, Shoes and Jewelry 5-core research dataset, a reproducible offline experiment, and a printable progress report. Product images, outfit matching, and a deployed app are future extensions.
+**Interactive Demo (GitHub Pages):** https://faisalkabirgalib.github.io/StyleMatch/
+
+This research starter ranks fashion products for existing users. It includes the downloaded Amazon 2014 Clothing, Shoes and Jewelry 5-core research dataset, a reproducible offline experiment, a printable progress report, and an interactive browser demo (`docs/`) powered by exported outputs from the trained models. Product images, outfit matching, and a deployed backend app remain future extensions.
 
 ## Run
 
@@ -14,6 +16,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 .venv/bin/python scripts/benchmark.py
 .venv/bin/python scripts/build_report.py
 .venv/bin/python scripts/verify_results.py
+.venv/bin/python scripts/build_demo_data.py
 ```
 
 The default pilot evaluates up to 1,000 validation users and 3,000 test users, sampled with seed 42. To evaluate every eligible user:
